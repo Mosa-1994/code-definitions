@@ -14,3 +14,15 @@
   --ease-snappy: cubic-bezier(0.2, 0, 0, 1);
   /* ... */
 }
+
+/* Custom styling bovenop Tailwind */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f7fafc; /* equivalent to bg-gray-100 */
+}
+
+/* Custom classes voor code blocks */
+.code-block {
+  font-family: monospace; /* equivalent to font-mono */
+  font-size: 0.875rem; /* equivalent to text-sm */
+}
